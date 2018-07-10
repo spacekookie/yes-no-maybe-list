@@ -1,9 +1,11 @@
 \documentclass[a4paper]{article}
 \usepackage{booktabs}
 \usepackage{array}
+\usepackage{adjustbox}
 \setlength\extrarowheight{2pt}
 \begin{document}
 \begin{table}[htb]
+\begin{adjustbox}{width=1\textwidth}
 	\begin{tabular}{@{}ccc@{}}
         \toprule
         activity &  yes/no/maybe &  comment \\
@@ -110,5 +112,6 @@
         discovering each others hearts falling in love with every bit of it &  x &  x \\
         \bottomrule
     \end{tabular}
+\end{adjustbox}
 \end{table}
 \end{document}
